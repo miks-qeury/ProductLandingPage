@@ -1,3 +1,8 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{height: 2000px;}
 h2{
     color: #222626;
     font-size: 24pt;
@@ -21,8 +26,12 @@ p{
     margin: auto;
 }
 .logo{
+    display: flex;
     top: 40px;
     position: absolute;
+}
+.logo>span{
+    padding-left: 10px;
 }
 
 .title{
@@ -36,7 +45,7 @@ p{
 
 }
 .first-section{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
 }
 .box-grid{
@@ -91,4 +100,17 @@ p{
 .h2{
     margin-top: 70px;
     margin-bottom: 10px;
+}
+.Four-col{
+    margin-top: 100px;
+}
+.Four-col>h2{
+    margin-bottom: 30px;
+}
+.four-col>div>h3{
+    margin-bottom: 20px;
+}
+.four-col{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
