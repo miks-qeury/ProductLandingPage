@@ -1,0 +1,55 @@
+h2{
+    color: #222626;
+    font-size: 24pt;
+}
+p{
+    color: #a3a3a3;
+    font-size: 14pt;
+}
+*{
+    margin: 0;
+}
+
+.header{
+    padding-bottom: 40%;
+    color: white;
+    font-size: 20pt;
+    position: relative;
+
+}
+.container{
+    max-width: 1230px;
+    margin: auto;
+}
+.logo{
+    top: 40px;
+    position: absolute;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    width: 360px;
+}
+
+.main{
+    display: grid;
+
+}
+.first-section{
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+.box-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#iphone{
+    width: 100%;
+    height: auto;
+}
+.h2{
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
